@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "173460478569",
+    "project_id": "maulik-assignment",
+    "storage_bucket": "maulik-assignment.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173460478569:android:285a51c813725dd134e0f8",
+        "android_client_info": {
+          "package_name": "com.event.event_rsvp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173460478569-ia8c32bd9iho3ipkol6bdg1i4ung4nhk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbhW5w6eVYgAZGaDd4zlau7tFMy7cmPAM"
+        },
+        {
+          "current_key": "AIzaSyDldwaz6lkp623g2Sfd_bEdVxyLvL7n5M0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173460478569-ia8c32bd9iho3ipkol6bdg1i4ung4nhk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173460478569:android:d3a20e4403d182de34e0f8",
+        "android_client_info": {
+          "package_name": "com.example.maulik_assignmnet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173460478569-ia8c32bd9iho3ipkol6bdg1i4ung4nhk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbhW5w6eVYgAZGaDd4zlau7tFMy7cmPAM"
+        },
+        {
+          "current_key": "AIzaSyDldwaz6lkp623g2Sfd_bEdVxyLvL7n5M0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173460478569-ia8c32bd9iho3ipkol6bdg1i4ung4nhk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173460478569:android:91bb504297e99ea534e0f8",
+        "android_client_info": {
+          "package_name": "com.example.mr_todo_bloc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173460478569-ia8c32bd9iho3ipkol6bdg1i4ung4nhk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbhW5w6eVYgAZGaDd4zlau7tFMy7cmPAM"
+        },
+        {
+          "current_key": "AIzaSyDldwaz6lkp623g2Sfd_bEdVxyLvL7n5M0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173460478569-ia8c32bd9iho3ipkol6bdg1i4ung4nhk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
