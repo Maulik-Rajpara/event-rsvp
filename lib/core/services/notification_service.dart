@@ -1,7 +1,7 @@
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
 class NotificationService {
-  final FlutterLocalNotificationsPlugin _flutterLocalNotificationsPlugin =
+  static final  FlutterLocalNotificationsPlugin _flutterLocalNotificationsPlugin =
   FlutterLocalNotificationsPlugin();
 
   Future<void> init() async {
@@ -27,7 +27,7 @@ class NotificationService {
     );
   }
 
-  Future<void> scheduleNotification(DateTime eventDate, String eventTitle) async {
+  static Future<void> scheduleNotification(DateTime eventDate, String eventTitle) async {
     dynamic scheduledTime = eventDate.subtract(Duration(hours: 1)); // 1 hour before
     await _flutterLocalNotificationsPlugin.zonedSchedule(
       0,

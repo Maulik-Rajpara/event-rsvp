@@ -1,3 +1,4 @@
+import 'package:event_rsvp/core/services/notification_service.dart';
 import 'package:event_rsvp/core/utils/app_common.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -71,6 +72,8 @@ class _AddEventScreenState extends State<AddEventScreen> {
 
                   // Save the event using the ViewModel
                   Provider.of<EventViewModel>(context, listen: false).addEvent(newEvent);
+
+                  NotificationService.scheduleNotification(newEvent.date, newEvent.title);
 
                   // Pop back to the event list screen
                   Navigator.pop(context);

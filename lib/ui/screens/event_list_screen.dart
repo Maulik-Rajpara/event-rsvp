@@ -27,7 +27,7 @@ class _EventListScreenState extends State<EventListScreen> {
       body: Consumer<EventViewModel>(
         builder: (context, viewModel, child) {
           if (viewModel.events.isEmpty) {
-            return Center(child: CircularProgressIndicator()); // Show loading indicator
+            return Center(child: Text("No Events available")); // Show loading indicator
           }
           return ListView.builder(
             itemCount: viewModel.events.length,
