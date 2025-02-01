@@ -1,16 +1,29 @@
-# event_rsvp
+# Event RSVP App
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+The Event RSVP App allows users to view upcoming events, RSVP to them, and receive reminders about the events. It also includes features like offline syncing and conflict resolution for RSVP data.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Real-time Attendee Count**: View the number of attendees for each event in real-time.
+- **Offline RSVP Syncing**: RSVP to events while offline; the app will sync your responses when back online.
+- **Local Notifications**: Receive reminders for upcoming events.
+- **User Authentication**: Secure login and registration using Firebase Auth.
+- **Efficient Pagination**: Load events efficiently with pagination.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Technologies Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter**: UI framework.
+- **Firebase**: For real-time data and user authentication.
+- **Hive**: Local database for offline storage.
+- **flutter_local_notifications**: For scheduling notifications.
+- **Provider**: State management.
+
+## Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/event_rsvp_app.git
+cd event_rsvp_app
